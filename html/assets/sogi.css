@@ -1,7 +1,8 @@
+
 [hidden] { display: none !important; }
 @font-face {
   font-family: "Figtree";
-  src: url("fonts/figtree.woff2") format("woff2");
+  src: url("figtree-202cfb54.woff2") format("woff2");
   font-weight: 300 900;
   font-style: normal;
   font-display: swap;
@@ -183,6 +184,7 @@ h3 { margin: 0; font-weight: 700; color: var(--navy); line-height: 1.25; }
 .logos img.h-28 { height: 2.8rem; }
 .logos img.h-26 { height: 2.6rem; }
 .logos img.h-17 { height: 1.7rem; }
+.logos img.h-22 { height: 2.2rem; }
 
 /* mobiel */
 @media (max-width: 40rem) {
@@ -206,6 +208,7 @@ h3 { margin: 0; font-weight: 700; color: var(--navy); line-height: 1.25; }
   .logos img.h-28 { height: 2.2rem; }
   .logos img.h-26 { height: 2rem; }
   .logos img.h-17 { height: 1.3rem; }
+  .logos img.h-22 { height: 1.7rem; }
   .logos img { max-width: 100%; }
   .p-name { font-size: 0.82rem; }
   .button { display: block; text-align: center; }
@@ -215,3 +218,4 @@ h3 { margin: 0; font-weight: 700; color: var(--navy); line-height: 1.25; }
   .funders .brabant img { height: 1.6rem; }
   .funding-note { font-size: 0.85rem; }
 }
+
